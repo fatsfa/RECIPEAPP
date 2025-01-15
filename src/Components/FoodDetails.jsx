@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import style from "./foodDetails.module.css"
-import ItemList from "./itemList"
+import ItemList from "./ItemList"
 
 export default function FoodDetails({foodId}){
     const [food, setFood] = useState({})
